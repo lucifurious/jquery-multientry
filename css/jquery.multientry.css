@@ -1,0 +1,140 @@
+/** jScrollPane Styles */
+.scroll-pane,
+.scroll-pane-arrows {
+	width:    100%;
+	height:   207px;
+	overflow: auto;
+}
+
+.horizontal-only {
+	height:     auto;
+	max-height: 200px;
+}
+
+.jspDrag, .jspTrack, .jspDragTop, .jspDragBottom {
+	border-radius: 0 4px 4px 0;
+}
+
+.jspVerticalBar {
+	width: 6px;
+}
+
+.jspVerticalBar > * {
+	border-radius: 0 4px 4px 0;
+}
+
+/** MultiEntry Widget Styles for Bootstrap 3.x **/
+.multientry .scroll-pane {
+	width:      100%;
+	min-height: 207px;
+	overflow:   auto;
+}
+
+.multientry .item-list {
+	height:        100px;
+	min-height:    127px;
+	padding-right: 0;
+	padding-left:  0;
+	padding-top:   0;
+	overflow:      auto;
+	margin-bottom: 2px;
+}
+
+/** Fixes for bootstrap navs **/
+.multientry .nav .jspPane > li {
+	position: relative;
+	display:  block;
+	padding:  0;
+}
+
+.multientry .nav .jspPane > li > a {
+	display:       inline-block;
+	width:         100%;
+	padding:       4px 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+.multientry .nav .jspPane > li:last-child > a {
+	border-bottom: none;
+}
+
+.multientry .nav .jspPane > li:hover,
+.multientry .nav .jspPane > li:focus {
+	text-decoration:  none;
+	background-color: #eeeeee;
+}
+
+.multientry .nav .jspPane > li.disabled > a {
+	color: #999999;
+}
+
+.multientry .nav .jspPane > li.disabled:hover,
+.multientry .nav .jspPane > li.disabled:focus {
+	color:            #999999;
+	text-decoration:  none;
+	cursor:           not-allowed;
+	background-color: transparent;
+}
+
+.multientry .nav .jspPane li > a > img {
+	max-width: none;
+}
+
+.multientry .nav-pills .jspPane > li {
+	float: left;
+}
+
+.multientry .nav-pills .jspPane > li > a {
+	border-radius: 4px;
+}
+
+.multientry .nav-pills .jspPane > li > a > .badge {
+	margin-left: 3px;
+}
+
+.multientry .nav-pills .jspPane > .active > a > .badge {
+	color:            #428bca;
+	background-color: #ffffff;
+}
+
+.multientry .nav-pills .jspPane > li + li {
+	margin-left: 2px;
+}
+
+.multientry .jspPane > li.active > a,
+.multientry .jspPane > li.active > a:hover,
+.multientry .jspPane > li.active > a:focus {
+	color:            #666666;
+	background-color: #d9eace;
+}
+
+.multientry .nav-pills .jspPane > li.active > a .caret,
+.multientry .nav-pills .jspPane > li.active > a:hover .caret,
+.multientry .nav-pills .jspPane > li.active > a:focus .caret {
+	border-top-color:    #ffffff;
+	border-bottom-color: #ffffff;
+}
+
+.multientry .nav-stacked .jspPane > li {
+	float: none;
+}
+
+.multientry .nav-stacked .jspPane > li + li {
+	margin-top:  0;
+	margin-left: 0;
+}
+
+/** Trash icon styling **/
+.multientry li a i.fa {
+	border-radius: 10px;
+	text-align:    center;
+	margin-top:    0;
+	padding:       2px 0;
+	font-size:     15px;
+	height:        20px;
+	width:         20px;
+}
+
+.multientry .label:empty {
+	display: block;
+}
